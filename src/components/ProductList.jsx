@@ -32,10 +32,8 @@ const singleProductButton = (singleProduct) => {
                         <Box sx={{ m: 3 }}>
                             <Typography variant="h3">{singleProduct.title}</Typography>
                             <Typography sx={{ mt: 2 }}>{singleProduct.description}</Typography>
-                            <Button variant='contained' sx={{ m: 2 }}>Details</Button>
+                            <Button variant='contained' sx={{ m: 2 }}><Link to={`${singleProduct.id}`}>Details</Link></Button>
                         </Box>
-                        <Link to={`${singleProduct.id}`}>test</Link>
-                        {/* <SingleProduct singleProduct={singleProduct}/> */}
                     </Paper>
                 )
             })}
