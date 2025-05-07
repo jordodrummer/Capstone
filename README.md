@@ -8,7 +8,7 @@ This project serves two core purposes:
 
 **Customer-Facing (Surface):**
 - 📸 A visual inventory of rare plants with images, descriptions, and pricing
-- 🛍️ A user-friendly interface for customers to browse the collection
+- 🛍️ A user-friendly interface for exploring the rare plant collection
 - 💳 A streamlined retail experience to purchase items directly from the business
 
 **Admin & Backend (Background):**
